@@ -67,6 +67,7 @@ tasks:
          state: touch
 ...
 ```
+![Screenshot from 2025-01-27 23-50-52](https://github.com/user-attachments/assets/3e91fc1f-40d1-43d5-8756-c8526065a4bb)
 
 
 ### Set permissions, ownership, and group:
@@ -82,6 +83,8 @@ tasks:
         group: ansible
 ...
 ```
+![Screenshot from 2025-01-27 23-52-41](https://github.com/user-attachments/assets/7f8d2b65-2c37-4228-9151-8b11be419992)
+
 
 ### User and Group Management
 Create a user and group:
@@ -99,6 +102,7 @@ Create a user and group:
         shell: /bin/bash
 ...
 ```
+![Screenshot from 2025-01-27 23-57-54](https://github.com/user-attachments/assets/eecbedd3-f9da-4566-ae34-9f9e6e74eb63)
 
 
 Change a user's primary group:
@@ -127,6 +131,7 @@ Install multiple packages:
         state: present
 ...
 ```
+![Screenshot from 2025-01-28 00-01-10](https://github.com/user-attachments/assets/66f949a3-a657-4679-97fe-bbcf4b00b6ea)
 
 ### Firewall Configuration
 Open firewall ports and enable services:
